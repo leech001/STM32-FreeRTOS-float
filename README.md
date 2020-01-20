@@ -15,7 +15,7 @@ How is it all corrected.
 
 /* USER CODE END Defines */
 ```
-### Remember to enable the extra option for the u _printf_float compiler.
+### Remember to enable the extra option for the "-u _printf_float" compiler.
 
 This completes the setup. Compilation and operation of the printf, sprintf, snprintf functions should occur without hovering and Hard Fault.
 
@@ -43,7 +43,7 @@ p.s. The version of the heap_useNewlib.c file provided in this repository is sli
 /* USER CODE END Defines */
 ```
 
-### Не забудьте включить дополнительную опцию для компилятора u _printf_float.
+### Не забудьте включить дополнительную опцию для компилятора "-u _printf_float".
 
 На этом настройка закончена. Компиляция и работа функций printf, sprintf, snprintf должны происходить без зависания и Hard Fault.
 
