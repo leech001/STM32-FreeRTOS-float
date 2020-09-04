@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3d7a5ca-36ad-461c-ba80-aef9f303ab60" name="Default Changelist" comment="Update version to June 2020.&#10;Add Example code/">
+      <change afterPath="$PROJECT_DIR$/.idea/STM32-FreeRTOS-float.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.idea/FreeRTOS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.idea/runConfigurations/OCD_FreeRTOS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Inc/FreeRTOSConfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/freertos.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/stm32f4xx_hal_timebase_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Core/Src/system_stm32f4xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/FreeRTOS.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/FreeRTOS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_useNewlib_ST.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/Middlewares/Third_Party/FreeRTOS/Source/timers.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/STM32F401CCUx_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/ASM.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/FreeRTOS.elf.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/FreeRTOS.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/FreeRTOS.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/FreeRTOS.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/FreeRTOS.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/FreeRTOS/startup/startup_stm32f401xc.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap_useNewlib_ST.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap_useNewlib.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h2nDRuRxZVBtSetNQyTCM6aCJS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3d7a5ca-36ad-461c-ba80-aef9f303ab60" name="Default Changelist" comment="" />
+      <created>1599217934288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599217934288</updated>
+      <workItem from="1599217935364" duration="2586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update version to June 2020.&#10;Add Example code/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version to June 2020.&#10;Add Example code/" />
+  </component>
+</project>
