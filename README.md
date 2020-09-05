@@ -1,7 +1,7 @@
 # Attention: This repository has been archived!
-# New version STM32CubeMX generate correct code foe GCC(newlib) to use float and double (converting values to char type) under FreeRTOS use printf, sprintf, snprintf.
+# New version of STM32CubeMX generate correct code for GCC(newlib) to use float and double (converting values to char type) under FreeRTOS use printf, sprintf, snprintf.
 
-# Configuring STM32 to work with float and double (converting values to char type) under FreeRTOS use printf, sprintf, snprintf.
+## Configuring STM32 to work with float and double (converting values to char type) under FreeRTOS use printf, sprintf, snprintf.
 
 If you use standard tools for converting float and double to char type such as printf, sprintf, snprintf, then when you run these conversions under FreeRTOS and using the GNU Arm Embedded Toolchain (https://developer.arm.com/tools-and-software/ open-source-software / developer-tools / gnu-toolchain / gnu-rm) the microcontroller hangs and a Hard Fault error occurs.
 According to research on this topic http://www.nadler.com/embedded/newlibAndFreeRTOS.html, this error is associated with incorrect operation of dynamic memory allocation (malloc / malloc_r).
@@ -30,7 +30,7 @@ This completes the setup. Compilation and operation of the printf, sprintf, snpr
 p.s. The version of the ```heap_useNewlib_ST.c``` file provided in this repository is slightly different from the original (https://github.com/DRNadler/FreeRTOS_helpers) in terms of fixing compilation errors. It was tested on the following versions of the STM32F401CCU6 microcontrollers under Windows 10 and Ubuntu 20.04
 
 
-# Настройка STM32 для работы с float и double (преобразования значений к типу char) под FreeRTOS.
+## Настройка STM32 для работы с float и double (преобразования значений к типу char) под FreeRTOS.
 
 Если использовать стандартные инструменты по преобразованию  float и double к типу char такие как printf, sprintf, snprintf, то при запуске этих преобразований под FreeRTOS и используя  GNU Arm Embedded Toolchain (https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) наблюдается зависание микроконтроллера и появление ошибки Hard Fault.
 
