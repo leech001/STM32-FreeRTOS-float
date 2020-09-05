@@ -1,3 +1,6 @@
+# Attention: This repository has been archived!
+# New version STM32CubeMX generate correct code foe GCC(newlib) to use float and double (converting values to char type) under FreeRTOS use printf, sprintf, snprintf.
+
 # Configuring STM32 to work with float and double (converting values to char type) under FreeRTOS use printf, sprintf, snprintf.
 
 If you use standard tools for converting float and double to char type such as printf, sprintf, snprintf, then when you run these conversions under FreeRTOS and using the GNU Arm Embedded Toolchain (https://developer.arm.com/tools-and-software/ open-source-software / developer-tools / gnu-toolchain / gnu-rm) the microcontroller hangs and a Hard Fault error occurs.
